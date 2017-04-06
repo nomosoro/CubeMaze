@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: d5db546365fb035429ac3e6ff4c3f3a0
+timeCreated: 1490517667
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arms_CTRL
+    100002: Butt
+    100004: Butt_CTRL
+    100006: Char1Model
+    100008: //RootNode
+    100010: Ik_Group
+    100012: Left_Ankle
+    100014: Left_Arm_CTRL
+    100016: Left_Arm_Ik
+    100018: Left_Clavical
+    100020: Left_Elbow
+    100022: Left_Elbow_CTRL
+    100024: Left_Fingers
+    100026: Left_Foot_CTRL
+    100028: Left_Forearm
+    100030: Left_Foreleg
+    100032: Left_Hand_CTRL
+    100034: Left_Hip
+    100036: Left_Kneel
+    100038: Left_Kneel_CTRL
+    100040: Left_Leg_CTRL
+    100042: Left_Leg_Ik
+    100044: Left_Leg_Roll
+    100046: Left_Shoudler
+    100048: Left_Toes
+    100050: Left_Wrist
+    100052: Legs
+    100054: Master_CTRL
+    100056: Master_Loose_CTRL
+    100058: Master_Skeleton
+    100060: Right_Ankle
+    100062: Right_Arm_CTRL
+    100064: Right_Arm_Ik
+    100066: Right_Clavical
+    100068: Right_Elbow
+    100070: Right_Elbow_CTRL
+    100072: Right_Fingers
+    100074: Right_Foot_CTRL
+    100076: Right_Forearm
+    100078: Right_Foreleg
+    100080: Right_Hand_CTRL
+    100082: Right_Hip
+    100084: Right_Kneel
+    100086: Right_Kneel_CTRL
+    100088: Right_Leg_CTRL
+    100090: Right_Leg_Ik
+    100092: Right_Leg_Roll
+    100094: Right_Shoudler
+    100096: Right_Toes
+    100098: Right_Wrist
+    100100: Waist_CTRL
+    400000: Arms_CTRL
+    400002: Butt
+    400004: Butt_CTRL
+    400006: Char1Model
+    400008: //RootNode
+    400010: Ik_Group
+    400012: Left_Ankle
+    400014: Left_Arm_CTRL
+    400016: Left_Arm_Ik
+    400018: Left_Clavical
+    400020: Left_Elbow
+    400022: Left_Elbow_CTRL
+    400024: Left_Fingers
+    400026: Left_Foot_CTRL
+    400028: Left_Forearm
+    400030: Left_Foreleg
+    400032: Left_Hand_CTRL
+    400034: Left_Hip
+    400036: Left_Kneel
+    400038: Left_Kneel_CTRL
+    400040: Left_Leg_CTRL
+    400042: Left_Leg_Ik
+    400044: Left_Leg_Roll
+    400046: Left_Shoudler
+    400048: Left_Toes
+    400050: Left_Wrist
+    400052: Legs
+    400054: Master_CTRL
+    400056: Master_Loose_CTRL
+    400058: Master_Skeleton
+    400060: Right_Ankle
+    400062: Right_Arm_CTRL
+    400064: Right_Arm_Ik
+    400066: Right_Clavical
+    400068: Right_Elbow
+    400070: Right_Elbow_CTRL
+    400072: Right_Fingers
+    400074: Right_Foot_CTRL
+    400076: Right_Forearm
+    400078: Right_Foreleg
+    400080: Right_Hand_CTRL
+    400082: Right_Hip
+    400084: Right_Kneel
+    400086: Right_Kneel_CTRL
+    400088: Right_Leg_CTRL
+    400090: Right_Leg_Ik
+    400092: Right_Leg_Roll
+    400094: Right_Shoudler
+    400096: Right_Toes
+    400098: Right_Wrist
+    400100: Waist_CTRL
+    4300000: Char1Model
+    7400000: Take 001
+    7400002: Idle
+    7400004: Walk
+    7400006: Run
+    7400008: Pick
+    9500000: //RootNode
+    13700000: Char1Model
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 204
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char1Model
+        weight: 1
+      - path: Ik_Group
+        weight: 1
+      - path: Ik_Group/Left_Arm_Ik
+        weight: 1
+      - path: Ik_Group/Left_Leg_Ik
+        weight: 1
+      - path: Ik_Group/Right_Arm_Ik
+        weight: 1
+      - path: Ik_Group/Right_Leg_Ik
+        weight: 1
+      - path: Master_Skeleton
+        weight: 1
+      - path: Master_Skeleton/Butt
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel/Left_Foreleg
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel/Left_Foreleg/Left_Ankle
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel/Left_Foreleg/Left_Ankle/Left_Toes
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel/Right_Foreleg
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel/Right_Foreleg/Right_Ankle
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel/Right_Foreleg/Right_Ankle/Right_Toes
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow/Left_Forearm
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow/Left_Forearm/Left_Wrist
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow/Left_Forearm/Left_Wrist/Left_Fingers
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow/Right_Forearm
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow/Right_Forearm/Right_Wrist
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow/Right_Forearm/Right_Wrist/Right_Fingers
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char1Model
+        weight: 1
+      - path: Ik_Group
+        weight: 1
+      - path: Ik_Group/Left_Arm_Ik
+        weight: 1
+      - path: Ik_Group/Left_Leg_Ik
+        weight: 1
+      - path: Ik_Group/Right_Arm_Ik
+        weight: 1
+      - path: Ik_Group/Right_Leg_Ik
+        weight: 1
+      - path: Master_Skeleton
+        weight: 1
+      - path: Master_Skeleton/Butt
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel/Left_Foreleg
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel/Left_Foreleg/Left_Ankle
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel/Left_Foreleg/Left_Ankle/Left_Toes
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel/Right_Foreleg
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel/Right_Foreleg/Right_Ankle
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel/Right_Foreleg/Right_Ankle/Right_Toes
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow/Left_Forearm
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow/Left_Forearm/Left_Wrist
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow/Left_Forearm/Left_Wrist/Left_Fingers
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow/Right_Forearm
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow/Right_Forearm/Right_Wrist
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow/Right_Forearm/Right_Wrist/Right_Fingers
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 49
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char1Model
+        weight: 1
+      - path: Ik_Group
+        weight: 1
+      - path: Ik_Group/Left_Arm_Ik
+        weight: 1
+      - path: Ik_Group/Left_Leg_Ik
+        weight: 1
+      - path: Ik_Group/Right_Arm_Ik
+        weight: 1
+      - path: Ik_Group/Right_Leg_Ik
+        weight: 1
+      - path: Master_Skeleton
+        weight: 1
+      - path: Master_Skeleton/Butt
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel/Left_Foreleg
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel/Left_Foreleg/Left_Ankle
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel/Left_Foreleg/Left_Ankle/Left_Toes
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel/Right_Foreleg
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel/Right_Foreleg/Right_Ankle
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel/Right_Foreleg/Right_Ankle/Right_Toes
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow/Left_Forearm
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow/Left_Forearm/Left_Wrist
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow/Left_Forearm/Left_Wrist/Left_Fingers
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow/Right_Forearm
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow/Right_Forearm/Right_Wrist
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow/Right_Forearm/Right_Wrist/Right_Fingers
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 78
+      lastFrame: 102
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char1Model
+        weight: 1
+      - path: Ik_Group
+        weight: 1
+      - path: Ik_Group/Left_Arm_Ik
+        weight: 1
+      - path: Ik_Group/Left_Leg_Ik
+        weight: 1
+      - path: Ik_Group/Right_Arm_Ik
+        weight: 1
+      - path: Ik_Group/Right_Leg_Ik
+        weight: 1
+      - path: Master_Skeleton
+        weight: 1
+      - path: Master_Skeleton/Butt
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel/Left_Foreleg
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel/Left_Foreleg/Left_Ankle
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel/Left_Foreleg/Left_Ankle/Left_Toes
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel/Right_Foreleg
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel/Right_Foreleg/Right_Ankle
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel/Right_Foreleg/Right_Ankle/Right_Toes
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow/Left_Forearm
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow/Left_Forearm/Left_Wrist
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow/Left_Forearm/Left_Wrist/Left_Fingers
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow/Right_Forearm
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow/Right_Forearm/Right_Wrist
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow/Right_Forearm/Right_Wrist/Right_Fingers
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pick
+      takeName: Take 001
+      firstFrame: 108
+      lastFrame: 192
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char1Model
+        weight: 1
+      - path: Ik_Group
+        weight: 1
+      - path: Ik_Group/Left_Arm_Ik
+        weight: 1
+      - path: Ik_Group/Left_Leg_Ik
+        weight: 1
+      - path: Ik_Group/Right_Arm_Ik
+        weight: 1
+      - path: Ik_Group/Right_Leg_Ik
+        weight: 1
+      - path: Master_Skeleton
+        weight: 1
+      - path: Master_Skeleton/Butt
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel/Left_Foreleg
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel/Left_Foreleg/Left_Ankle
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Left_Leg_Roll/Left_Hip/Left_Kneel/Left_Foreleg/Left_Ankle/Left_Toes
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel/Right_Foreleg
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel/Right_Foreleg/Right_Ankle
+        weight: 1
+      - path: Master_Skeleton/Butt/Legs/Right_Leg_Roll/Right_Hip/Right_Kneel/Right_Foreleg/Right_Ankle/Right_Toes
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow/Left_Forearm
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow/Left_Forearm/Left_Wrist
+        weight: 1
+      - path: Master_Skeleton/Left_Clavical/Left_Shoudler/Left_Elbow/Left_Forearm/Left_Wrist/Left_Fingers
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow/Right_Forearm
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow/Right_Forearm/Right_Wrist
+        weight: 1
+      - path: Master_Skeleton/Right_Clavical/Right_Shoudler/Right_Elbow/Right_Forearm/Right_Wrist/Right_Fingers
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

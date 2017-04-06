@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 13602, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LookDevContexts:
+  - m_Properties:
+    - floatValue: 1.0140845
+      intValue: 0
+    - floatValue: 0
+      intValue: 0
+    - floatValue: 0
+      intValue: -1
+    - floatValue: 149.95734
+      intValue: 0
+    - floatValue: 0
+      intValue: -1
+  - m_Properties:
+    - floatValue: 0.19
+      intValue: 0
+    - floatValue: 0
+      intValue: 0
+    - floatValue: 0
+      intValue: -1
+    - floatValue: 172.95752
+      intValue: 0
+    - floatValue: 0
+      intValue: -1
+  m_LookDevProperties:
+  - m_Linked: 0
+    m_PropertyType: 1
+  - m_Linked: 1
+    m_PropertyType: 0
+  - m_Linked: 0
+    m_PropertyType: 0
+  - m_Linked: 0
+    m_PropertyType: 1
+  - m_Linked: 0
+    m_PropertyType: 0
+  m_Gizmo:
+    m_Point1: {x: 0.47222227, y: -0.02222225}
+    m_Point2: {x: -0.26851854, y: 0.0018518447}
+    m_Center: {x: 0.101851866, y: -0.010185203}
+    m_Angle: 1.6032851
+    m_Length: 0.37056595
+    m_Plane: {x: 0.032483038, y: 0.9994723, z: 0.0068713697, w: 0}
+    m_PlaneOrtho: {x: 0.9994723, y: -0.032482952, z: -0.10212897, w: -0}
+  m_LookDevMode: 4
+  m_EnableToneMap: 1
+  m_EnableShadowCubemap: 1
+  m_ExposureRange: 3
+  m_ShadowDistance: 0
+  m_ShowBalls: 0
+  m_ShowControlWindows: 1
+  m_RotateObjectMode: 0
+  m_EnvRotationSpeed: 1
+  m_RotateEnvMode: 0
+  m_ObjRotationSpeed: 1
+  m_AllowDifferentObjects: 0
+  m_CurrentObject:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_PreviewObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_CurrentContextEdition: 0
+  m_CurrentEditionContextIndex: 0
+  m_DualViewBlendFactor: 0
+  m_OriginalGameObject:
+  - {fileID: 1079452301352438, guid: ceb668729631bba41a9c6fd38243b842, type: 2}
+  - {fileID: 1079452301352438, guid: ceb668729631bba41a9c6fd38243b842, type: 2}
+  m_CameraState:
+  - m_Pivot:
+      m_Target: {x: 0, y: 0, z: 0}
+      speed: 2
+      m_Value: {x: 0, y: 0, z: 0}
+    m_Rotation:
+      m_Target: {x: 0.117895, y: 0.2747444, z: -0.03396501, w: 0.95365757}
+      speed: 2
+      m_Value: {x: 0.117895, y: 0.2747444, z: -0.03396501, w: 0.95365757}
+    m_ViewSize:
+      m_Target: 4.5693955
+      speed: 2
+      m_Value: 4.5693955
+  - m_Pivot:
+      m_Target: {x: 0, y: 0, z: 0}
+      speed: 2
+      m_Value: {x: 0, y: 0, z: 0}
+    m_Rotation:
+      m_Target: {x: 0.117895, y: 0.2747444, z: -0.03396501, w: 0.95365757}
+      speed: 2
+      m_Value: {x: 0.117895, y: 0.2747444, z: -0.03396501, w: 0.95365757}
+    m_ViewSize:
+      m_Target: 4.5693955
+      speed: 2
+      m_Value: 4.5693955
+  m_SideBySideCameraLinked: 0
+  m_CameraStateCommon:
+    m_Pivot:
+      m_Target: {x: 0, y: 0, z: 0}
+      speed: 2
+      m_Value: {x: 0, y: 0, z: 0}
+    m_Rotation:
+      m_Target: {x: 0.117895, y: 0.2747444, z: -0.03396501, w: 0.95365757}
+      speed: 2
+      m_Value: {x: 0.117895, y: 0.2747444, z: -0.03396501, w: 0.95365757}
+    m_ViewSize:
+      m_Target: 4.5693955
+      speed: 2
+      m_Value: 4.5693955
+  m_CameraStateLeft:
+    m_Pivot:
+      m_Target: {x: 0, y: 0, z: 0}
+      speed: 2
+      m_Value: {x: 0, y: 0, z: 0}
+    m_Rotation:
+      m_Target: {x: 0.11789507, y: 0.27474454, z: -0.03396503, w: 0.95365816}
+      speed: 2
+      m_Value: {x: 0.117895, y: 0.2747444, z: -0.03396501, w: 0.95365757}
+    m_ViewSize:
+      m_Target: 4.5693955
+      speed: 2
+      m_Value: 4.5693955
+  m_CameraStateRight:
+    m_Pivot:
+      m_Target: {x: 0, y: 0, z: 0}
+      speed: 2
+      m_Value: {x: 0, y: 0, z: 0}
+    m_Rotation:
+      m_Target: {x: 0.04005225, y: 0.14635098, z: -0.0059304587, w: 0.9884036}
+      speed: 2
+      m_Value: {x: 0.040052257, y: 0.14635101, z: -0.0059304596, w: 0.9884038}
+    m_ViewSize:
+      m_Target: 3.3693953
+      speed: 2
+      m_Value: 3.3693953

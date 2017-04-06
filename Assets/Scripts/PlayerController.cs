@@ -122,9 +122,6 @@ public class PlayerController : MonoBehaviour {
 	#endregion
 
 	#region Debug Methods
-	void OnDrawGizmos(){
-		Gizmos.color = Color.red;
-		Gizmos.DrawRay (cameraScript.aimRay.origin,cameraScript.aimRay.direction*1000f);
-	}
+
 	#endregion
 }

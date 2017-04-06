@@ -15,6 +15,7 @@ public class DownableWall : MonoBehaviour,IAimable,IInteractable {
 		uiManager = UIManager.GetComponent<UIManager> ();
 		shifter = GetComponent<Shifter>();
 		shifter.direct = transform.up * -1;
+		shifter.shiftDist = 3f;
 	}
 	void Down(){
 		if (locked) {
@@ -39,6 +40,6 @@ public class DownableWall : MonoBehaviour,IAimable,IInteractable {
 
 	public void OnInteract(){
 		Debug.Log ("Interacting! ");
-		shifter.Toggle ();
+		shifter.ToggleWithTransition ();
 	}
 }

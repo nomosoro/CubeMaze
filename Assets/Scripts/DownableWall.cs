@@ -32,7 +32,9 @@ public class DownableWall : MonoBehaviour,IAimable,IInteractable {
 	}
 	public void OnAim(){
 		uiManager.ShowAimHint ("Door.");
-
+	}
+	public void OnAimOut(){
+		uiManager.HideAimHint ();
 	}
 
 	public void OnInteract(){

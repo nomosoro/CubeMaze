@@ -5,16 +5,18 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
 	#region Field
-	private Vector3 centerOffset = new Vector3(0,0.6f,0);
-	private float speed=5;
+
 	public LayerMask layerMask = -1;
 	public Transform followCamera;
 	public UIManager uiManager;
 	public GameObject mazeManager;
+	private Vector3 centerOffset = new Vector3(0,0.6f,0);
+	private float speed=5;
 	private Rigidbody rb;
 	private Animator anim;
 	private PlayerCameraController cameraScript;
 	private PlaneManager planeManagerScript;
+	private Transform lastAimedTransform = null;
 	#endregion
 
 	#region Initialization
@@ -77,15 +79,23 @@ public class PlayerController : MonoBehaviour {
 		RaycastHit hit;
 		if (Physics.Raycast (cameraScript.aimRay, out hit, 1000f, layerMask.value)) {
 			Debug.Log ("hitting!");
-			MonoBehaviour[] scriptList = hit.collider.transform.gameObject.GetComponents<MonoBehaviour> ();
+			lastAimedTransform = hit.transform;
+			MonoBehaviour[] scriptList = lastAimedTransform.GetComponents<MonoBehaviour> ();
 			foreach (MonoBehaviour script in scriptList) {
-				Debug.Log (script);
 				if (script is IAimable) {
 					(script as IAimable).OnAim ();
 				}
 			}
 		} else {
-			uiManager.HideAimHint ();
+			if (lastAimedTransform != null) {
+				MonoBehaviour[] scriptList = lastAimedTransform.GetComponents<MonoBehaviour> ();
+				foreach (MonoBehaviour script in scriptList) {
+					if (script is IAimable) {
+						(script as IAimable).OnAimOut ();
+					}
+				}
+				lastAimedTransform = null;
+			}
 		}
 	}
 	private void HandleInteracting(){

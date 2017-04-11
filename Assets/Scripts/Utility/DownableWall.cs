@@ -2,17 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DownableWall : MonoBehaviour,IAimable,IInteractable {
+public class DownableWall : MonoBehaviour,IInteractable {
 	private Shifter shifter;
 	public bool locked = false;
-	private GameObject UIManager;
-	private UIManager uiManager;
 	private bool isDown=false;
-	LayerMask mask=1;
 	// Use this for initialization
 	void Start(){
-		UIManager = GameObject.FindWithTag ("UIManager");
-		uiManager = UIManager.GetComponent<UIManager> ();
+
 		shifter = GetComponent<Shifter>();
 		shifter.direct = transform.up * -1;
 		shifter.shiftDist = 3f;
@@ -31,15 +27,8 @@ public class DownableWall : MonoBehaviour,IAimable,IInteractable {
 		isDown = false;
 		shifter.Unshift ();
 	}
-	public void OnAim(){
-		uiManager.ShowAimHint ("Door.");
-	}
-	public void OnAimOut(){
-		uiManager.HideAimHint ();
-	}
-
 	public void OnInteract(){
-		Debug.Log ("Interacting! ");
+		Debug.Log ("Interacting with downable wall.");
 		shifter.ToggleWithTransition ();
 	}
 }

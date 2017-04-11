@@ -16,6 +16,7 @@ public class PlaneManager : MonoBehaviour {
 	public void Init(){
 		//It must be executed in folded mode;
 		planes = new Transform[]{planeA,planeA_,planeB,planeB_,planeC,planeC_};
+
 		curPlane = planeA;
 		if (planeB.position.y * planeB.position.x != 0) {
 			Debug.LogWarning ("Cant init maze when planes are not in init position");
@@ -24,6 +25,20 @@ public class PlaneManager : MonoBehaviour {
 		RelatePlanes ();
 		RecordPlanes ();
 		folded = true;
+	}
+	public void FixPlanes(){
+		planeA.position = new Vector3 (0f,26f,0f);
+		planeA.rotation = Quaternion.Euler (0f,0f,0f);
+		planeB.position = new Vector3 (0f,0f,-26f);
+		planeB.rotation = Quaternion.Euler (-90f,0f,0f);
+		planeC.position = new Vector3 (-26f,0f,0f);
+		planeC.rotation = Quaternion.Euler (0f,0f,90f);
+		planeA_.position = new Vector3 (0f,-26f,0f);
+		planeA_.rotation = Quaternion.Euler (0f,90f,180f);
+		planeB_.position = new Vector3 (0f,0f,26f);
+		planeB_.rotation = Quaternion.Euler (90f,0f,0f);
+		planeC_.position = new Vector3 (26f,0f,0f);
+		planeC_.rotation = Quaternion.Euler (0f,0f,-90f);
 	}
 	void Awake(){
 		planes = new Transform[]{planeA,planeA_,planeB,planeB_,planeC,planeC_};
@@ -99,7 +114,7 @@ public class PlaneManager : MonoBehaviour {
 		maze.position=Vector3.zero;
 		maze.rotation = Quaternion.identity;
 		foreach (Transform plane in planes) {
-			plane.GetComponent<PlaneController> ().ResetTransform ();
+			plane.GetComponent<PlaneController> ().ResetPlane ();
 		}
 		folded = true;
 	}

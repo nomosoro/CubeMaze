@@ -77,7 +77,7 @@ public class PlayerController : MonoBehaviour {
 	}
 	private void HandleAiming(){
 		RaycastHit hit;
-		if (Physics.Raycast (cameraScript.aimRay, out hit, 1000f, layerMask.value)) {
+		if (Physics.Raycast (cameraScript.aimRay, out hit, cameraScript.Distance + 15f, layerMask.value)) {
 			Debug.Log ("hitting!");
 			lastAimedTransform = hit.transform;
 			MonoBehaviour[] scriptList = lastAimedTransform.GetComponents<MonoBehaviour> ();
@@ -102,7 +102,7 @@ public class PlayerController : MonoBehaviour {
 		bool isInteract = Input.GetKeyDown (KeyCode.E);
 		if (isInteract) {
 			RaycastHit hit;
-			if (Physics.Raycast (cameraScript.aimRay,out hit,1000f,layerMask.value)) {
+			if (Physics.Raycast (cameraScript.aimRay,out hit,cameraScript.Distance + 4f,layerMask.value)) {
 				MonoBehaviour[] scriptList=hit.collider.transform.gameObject.GetComponents<MonoBehaviour>() ;
 				foreach (MonoBehaviour script in scriptList) {
 					if (script is IInteractable) {

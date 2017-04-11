@@ -46,7 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\DownableWall.cs" />
+     <Compile Include="Assets\Scripts\Goal.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IAimable.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IInteractable.cs" />
      <Compile Include="Assets\Scripts\PlaneController.cs" />
@@ -54,8 +54,9 @@
      <Compile Include="Assets\Scripts\PlayerCameraController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
+     <Compile Include="Assets\Scripts\Utility\AimHint.cs" />
+     <Compile Include="Assets\Scripts\Utility\DownableWall.cs" />
      <Compile Include="Assets\Scripts\Utility\Shifter.cs" />
-     <Compile Include="Assets\Scripts\downable.cs" />
      <None Include="Assets\Fonts\OFL.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

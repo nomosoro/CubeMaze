@@ -16,6 +16,10 @@ public class PlaneManagerEditor : Editor {
 	private void DrawCustomInspector(){
 		GUILayout.Space (10);
 		GUILayout.Label ("Operations",EditorStyles.boldLabel);
+		if (GUILayout.Button ("Fix Planes")) {
+			m_Target.FixPlanes ();
+		}
+		GUILayout.Space (10);
 		if (GUILayout.Button ("Init Maze")) {
 			m_Target.Init ();
 		}

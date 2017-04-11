@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Editor\PlaneControllerEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\PlaneManagerEditor.cs" />
      <None Include="Assets\Fonts\OFL.txt" />
  <Reference Include="UnityEditor.Advertisements">

@@ -17,9 +17,9 @@ public class PlayerCameraController : MonoBehaviour {
 	public Vector3 offsetLookAt = Vector3.zero;
 	public Ray aimRay;
 	private float Y_MIN_ROTATION = -20.0f;
-	private float X_MIN_ROTATION = -180.0f;
+	private float X_MIN_ROTATION = -Mathf.Infinity;
 	private float Y_MAX_ROTATION = 90.0f;
-	private float X_MAX_ROTATION = 180.0f;
+	private float X_MAX_ROTATION = Mathf.Infinity;
 	private bool reverseX = false;
 	private bool reverseY = false;
 	private float currentX =0.0f ;
@@ -60,12 +60,14 @@ public class PlayerCameraController : MonoBehaviour {
 		} else {
 			currentY -= Input.GetAxis ("Mouse Y");
 		}
+
+
 		currentX = Mathf.Clamp (currentX,X_MIN_ROTATION,X_MAX_ROTATION);
 		currentY = Mathf.Clamp (currentY,Y_MIN_ROTATION,Y_MAX_ROTATION);
 	}
 	void LateUpdate () {
 		Vector3 direction = new Vector3 (0,0,-Distance);
-		Quaternion rotation = Quaternion.Euler(sensivityY*currentY,sensivityX*currentX,0);
+		Quaternion rotation = Quaternion.Euler(sensivityY*currentY,-sensivityX*currentX,0);
 		Vector3 newCamPos = follow + rotation * direction;
 		newCamPos+=offsetFollow;
 		camTransform.position = newCamPos;
@@ -81,7 +83,7 @@ public class PlayerCameraController : MonoBehaviour {
 	#region Debug Methods
 	void OnDrawGizmos(){
 		Gizmos.color = Color.blue;
-		Gizmos.DrawRay (aimRay.origin,aimRay.direction*1000f);
+		Gizmos.DrawRay (aimRay.origin,aimRay.direction*10f);
 	}
 	#endregion
 }
